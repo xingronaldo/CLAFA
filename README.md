@@ -47,15 +47,13 @@ python test.py --backbone resnet18d --name SV_resnet18d --gpu_ids 1
 ```python
 python trainval.py --gpu_ids 1 
 ```
-All the hyperparameters can be adjusted in `./option`.
+All the hyperparameters can be adjusted in `option.py`.
 
 
 ## TODO
 A more detailed README.
 
 ## Contact
-Don't hesitate to contact me if you have any question.
-
 Email: guangxingwang@mail.nwpu.edu.cn
 
 
