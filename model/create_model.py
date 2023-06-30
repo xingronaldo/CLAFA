@@ -9,7 +9,7 @@ from .block.schedular import get_cosine_schedule_with_warmup
 from .loss.focal import FocalLoss
 from .loss.dice import DICELoss
 
-def get_model(backbone_name='mobilenetv2', fpn_name='fpn', fpn_channels=64, deform_groups=4,
+def get_model(backbone_name='mobilenetv2', fpn_name='fpn', fpn_channels=128, deform_groups=4,
               gamma_mode='SE', beta_mode='contextgatedconv', num_heads=1, num_points=8, kernel_layers=1,
               dropout_rate=0.1, init_type='kaiming_normal'):
     detector = Detector(backbone_name, fpn_name, fpn_channels, deform_groups, gamma_mode, beta_mode,
