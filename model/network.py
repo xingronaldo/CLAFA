@@ -31,7 +31,7 @@ def get_fpn(fpn_name, in_channels, out_channels, deform_groups=4, gamma_mode='SE
 
 
 class Detector(nn.Module):
-    def __init__(self, backbone_name='mobilenetv2', fpn_name='fpn', fpn_channels=64,
+    def __init__(self, backbone_name='mobilenetv2', fpn_name='fpn', fpn_channels=128,
                  deform_groups=4, gamma_mode='SE', beta_mode='contextgatedconv',
                  num_heads=1, num_points=8, kernel_layers=1, dropout_rate=0.1, init_type='kaiming_normal'):
         super().__init__()
