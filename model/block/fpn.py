@@ -50,7 +50,7 @@ class GenerateBeta(nn.Module):
 
 ### MoFPN
 class FPN(nn.Module):
-    def __init__(self, in_channels, out_channels=128, deform_groups=4, gamma_mode='SE', beta_mode='gatedconv'):
+    def __init__(self, in_channels, out_channels=128, deform_groups=4, gamma_mode='SE', beta_mode='contextgatedconv'):
         super(FPN, self).__init__()
 
         self.p2 = DCNv2(in_channels=in_channels[0], out_channels=out_channels,
