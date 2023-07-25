@@ -26,7 +26,7 @@ Download data and add them to `./datasets`.
 
 
 ## Test
-Here I provide the trained models for the SV-CD dataset [Baidu Netdisk, code: CLAF](https://pan.baidu.com/s/1nfqqXA3DsZtU4BtHY-3YOg).
+Here I provide the trained models for the SV-CD dataset [Baidu Netdisk, code: CLAF](https://pan.baidu.com/s/1nfqqXA3DsZtU4BtHY-3YOg)A.
 
 Put them in `./checkpoints`.
 
