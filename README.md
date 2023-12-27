@@ -1,4 +1,4 @@
-# Code for manuscript 'Cross-Level Attentive Feature Aggregation for Change Detection'.
+# Code for the TCSVT article 'Cross-Level Attentive Feature Aggregation for Change Detection'.
 ---------------------------------------------
 Here I provide the PyTorch implementation for CLAFA.
 
