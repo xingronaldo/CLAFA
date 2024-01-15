@@ -50,9 +50,6 @@ python trainval.py --gpu_ids 1
 All the hyperparameters can be adjusted in `option.py`.
 
 
-## TODO
-A more detailed README.
-
 ## Contact
 Email: guangxingwang@mail.nwpu.edu.cn
 
